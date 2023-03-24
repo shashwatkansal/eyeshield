@@ -8,16 +8,16 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~36.0.0",
-    "react": "~16.9.0",
-    "react-dom": "~16.9.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
-    "react-native-web": "~0.11.7",
+    "expo": "^48.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.3",
+    "react-native-web": "~0.18.11",
     "d3-shape": "1.2.0",
-    "expo-camera": "8.0.0",
+    "expo-camera": "~13.2.1",
     "react-linechart": "1.1.12",
-    "react-native-svg": "^7.0.3",
-    "expo-face-detector": "8.0.0",
+    "react-native-svg": "13.4.0",
+    "expo-face-detector": "~12.1.1",
     "react-native-paper": "3.1.1",
     "react-native-snackbar": "2.2.0",
     "react-native-is-iphonex": "1.0.1",
@@ -25,8 +25,8 @@
     "react-native-simple-toast": "1.0.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "~8.0.0",
-    "@babel/core": "^7.0.0"
+    "babel-preset-expo": "^9.3.0",
+    "@babel/core": "^7.20.0"
   },
   "private": true
 }
