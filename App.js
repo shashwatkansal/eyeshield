@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  Text,
-  View,
-  TouchableOpacity,
-  ScrollView,
-  StyleSheet,
-} from "react-native";
+import { Text, View, ScrollView, StyleSheet } from "react-native";
 import { Camera } from "expo-camera";
 import * as FaceDetector from "expo-face-detector";
 import Constants from "expo-constants";
@@ -86,11 +80,6 @@ export default function App() {
 
   const colour = () => {
     var d = distances[distances.length - 1];
-    //var b = 20;
-    //var r = Math.max(255 - (d/60)*250, 0);
-    //var g = Math.min((d/60)*255, 255);
-    //return('rgba('+r+','+g+','+b+',1.0)');
-
     var m = 1.2;
     var mid = 35;
     var h = d < mid ? 0 : 120;
